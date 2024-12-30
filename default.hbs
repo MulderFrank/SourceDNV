@@ -53,6 +53,23 @@
     
     {{> "components/navigation" navigationLayout=@custom.navigation_layout}}
 
+			    {{#if @member.paid}}
+{{else}}<div class="gremlin gh-canvas">
+
+
+<!-- START ADVERTISER: Gaslicht.com NL from awin.com -->
+
+<a rel="sponsored" href="https://www.awin1.com/cread.php?s=3543981&v=8520&q=321495&r=371125">
+    <img src="https://www.awin1.com/cshow.php?s=3543981&v=8520&q=321495&r=371125" border="0">
+</a>
+
+<!-- END ADVERTISER: Gaslicht.com NL from awin.com -->
+
+
+</div>
+<div><center><small>Liever geen advertenties en wel horrornieuws steunen? <u><a href="https://denachtvlinders.nl/15jaar">Upgrade hier</a></u>!</small></center><div>
+{{/if}}
+
     {{{body}}}
     
     {{> "components/footer"}}

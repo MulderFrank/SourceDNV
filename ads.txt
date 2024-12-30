@@ -1,0 +1,7 @@
+# De Nachtvlinders
+# Contact: frank@denachtvlinders.nl
+# Info: https://denachtvlinders.nl/adverteren/
+
+denachtvlinders.nl, 1, DIRECT # banner video
+google.com, pub-4997691407234646, DIRECT, f08c47fec0942fa0
+

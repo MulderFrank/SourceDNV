@@ -48,7 +48,48 @@
 
         <section class="gh-content gh-canvas is-body{{#if @custom.enable_drop_caps_on_posts}} drop-cap{{/if}}">
             {{content}}
+{{#if tags}}
+           <span class="gh-article-tag">{{tags separator=", " prefix="Meer over: "}}</span>
+{{/if}}
         </section>
+{{#if @member.paid}}
+ {{else}}
+
+
+<div class="gremlin gh-canvas">
+{{#has tag="escape room, #wp"}}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4997691407234646"
+     crossorigin="anonymous"></script>
+<!-- de nachtvlinders 728x90 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4997691407234646"
+     data-ad-slot="1937151350"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+  {{else}}
+
+<!-- START ADVERTISER: Gaslicht.com NL from awin.com -->
+
+<a rel="sponsored" href="https://partner.bol.com/click/click?p=2&t=url&s=3770&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fnl%2Fl%2Ffilms%2F3133%2F30290%2F&name=dnvbanner">
+    <img src="https://denachtvlinders.nl/content/images/bol-banner-horror.gif" border="0" width="100%">
+</a>
+
+<!-- END ADVERTISER: Gaslicht.com NL from awin.com -->
+
+  {{/has}}
+
+
+</div>
+<div><center><small>Liever geen advertenties en wel horrornieuws steunen? <u><a href="https://denachtvlinders.nl/15jaar">Upgrade hier</a></u>!</small></center><div>
+{{/if}}
+
+
 
     </article>
 
